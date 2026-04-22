@@ -1,0 +1,25 @@
+.venv/
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+
+# large files not needed for deployed app
+code files/adr_catboost_model.pkl
+code files/adr_lightgbm_model.pkl
+code files/adr_meta_model.pkl
+code files/adr_xgboost_model.pkl
+code files/merged_data.csv
+code files/onehot_drug.pkl
+drugsComTrain_raw.csv
+drugsComTest_raw.csv
+meddra_all_indications.tsv
+meddra_all_se.tsv
+drug_names.tsv
+
+# optional cleanup
+code files/catboost_info/
+code files/rgcn_outputs/
+code files/*.ipynb
+code files/__pycache__/
